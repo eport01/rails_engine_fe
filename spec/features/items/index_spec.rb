@@ -11,7 +11,6 @@ RSpec.describe 'items index page' do
       expect(current_path).to eq(item_path("4"))
       expect(page).to have_content("$42.91")
       expect(page).to have_content("Item Description")
-
     end
   end
 end
