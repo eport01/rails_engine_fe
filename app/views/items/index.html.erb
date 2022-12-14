@@ -1,0 +1,8 @@
+<center><h1>All Items</h1></center>
+<br><br><hr>
+<%@items.each do |item|%>
+  <p><h3><li> <%=link_to item.name, item_path(item.id)%></li></h3></p>
+  <ul><strong>Description</strong> <p><%=item.description%><p></ul>
+  <ul><strong>Price</strong><p>$<%=item.unit_price%><p></ul>
+  <hr>
+<%end%>

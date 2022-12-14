@@ -18,4 +18,13 @@ class EcommerceService
   def self.merchant_items(merchant_id)
     get_url("/api/v1/merchants/#{merchant_id}/items")
   end
+
+  def self.item_show(item_id)
+    get_url("/api/v1/items/#{item_id}")
+
+  end
+
+  def self.item_index
+    get_url("/api/v1/items")
+  end
 end

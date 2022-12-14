@@ -18,9 +18,6 @@ RSpec.describe 'merchant index page' do
       expect(current_path).to eq(merchant_path("1"))
       expect(page).to have_content("Schroeder-Jerde")
       expect(page).to_not have_content("Klein, Rempel and Jones")
-
-
-
     end
   end
 end

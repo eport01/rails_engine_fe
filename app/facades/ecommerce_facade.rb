@@ -15,4 +15,15 @@ class EcommerceFacade
       Item.new(merchant)
     end
   end
+
+  def self.item_page(item_id)
+    item = EcommerceService.item_show(item_id)[:data]
+    Item.new(item)
+  end
+
+  def self.item_index 
+    EcommerceService.item_index[:data].map do |item|
+      Item.new(item)
+    end
+  end
 end
