@@ -1,0 +1,16 @@
+<h1>Welcome to the Merchant and Items Website</h1>
+
+<%=form_with url: root_path, method: :get, local: true do |form|%>
+  <%=form.label :keyword, "Search for Items"%>
+  <%=form.text_field :keyword %>
+  <%=form.submit "Submit" %>
+<%end%>
+<br><br>
+<hr>
+<%if params[:keyword]%>
+<h2>Search Results for "<%=params[:keyword]%>"</h2>
+<br><br>
+  <%@item_results.each do |item|%>
+    <p><%=link_to item.name, item_path(item.id)%><p>
+  <%end%>
+<%end%>

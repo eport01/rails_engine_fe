@@ -27,4 +27,8 @@ class EcommerceService
   def self.item_index
     get_url("/api/v1/items")
   end
+
+  def self.search(keyword)
+    get_url("/api/v1/items/find_all?name=#{keyword}")
+  end
 end

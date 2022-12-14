@@ -26,4 +26,11 @@ class EcommerceFacade
       Item.new(item)
     end
   end
+
+  def self.item_search(keyword)
+    EcommerceService.search(keyword)[:data].map do|item|
+      Item.new(item)
+    end
+    
+  end
 end
