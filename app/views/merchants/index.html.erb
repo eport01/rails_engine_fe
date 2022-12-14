@@ -1,5 +1,5 @@
 <center><h1>Merchants</h1></center>
 <h3>List of Merchants: </h3>
 <%@merchants.each do |merchant|%>
-  <p><%=merchant.name%><p>
+  <p><%=link_to merchant.name, merchant_path(merchant.id)%><p>
 <%end%>

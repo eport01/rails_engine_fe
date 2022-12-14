@@ -4,4 +4,9 @@ class EcommerceFacade
       Merchant.new(merchant)
     end
   end
+
+  def self.merchant_show(merchant_id)
+    merchant = EcommerceService.merchant(merchant_id)[:data]
+    Merchant.new(merchant)
+  end
 end
