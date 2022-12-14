@@ -15,6 +15,7 @@ RSpec.describe 'merchant index page' do
     it 'on merchant on index page links to merchant show page', :vcr do 
       visit merchants_path 
       click_link("Schroeder-Jerde")
+      expect(current_path).to eq(merchant_path("1"))
       expect(page).to have_content("Schroeder-Jerde")
       expect(page).to_not have_content("Klein, Rempel and Jones")
 

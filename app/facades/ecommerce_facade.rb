@@ -9,4 +9,10 @@ class EcommerceFacade
     merchant = EcommerceService.merchant(merchant_id)[:data]
     Merchant.new(merchant)
   end
+
+  def self.items_for_a_merchant(merchant_id)
+    EcommerceService.merchant_items(merchant_id)[:data].map do |merchant|
+      Item.new(merchant)
+    end
+  end
 end

@@ -1,0 +1,77 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/merchants/6
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"b21a4ea9d52e61b6e8514233c4b4b7ed"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 2905cea4-990b-44f9-bcee-9897c92b7d97
+      X-Runtime:
+      - '0.006652'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"6","type":"merchant","attributes":{"name":"Williamson
+        Group"}}}'
+  recorded_at: Wed, 14 Dec 2022 20:55:41 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/merchants/6/items
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"1857c9465ebc8b26944950b8de0a043f"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - c388d48e-cf58-4f0c-9337-bf1535d83ec7
+      X-Runtime:
+      - '0.076915'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"103","type":"item","attributes":{"name":"Item Quidem
+        Exercitationem","description":"Laboriosam officia placeat. Est placeat odio
+        porro. Sit saepe rerum. Et dolor distinctio id nisi.","unit_price":23.94,"merchant_id":6}},{"id":"104","type":"item","attributes":{"name":"Item
+        Et Sequi","description":"Quam beatae praesentium vel. Asperiores labore sunt.
+        Sequi voluptatem dolore. Voluptatem rerum aspernatur recusandae cum molestiae
+        error. Autem id modi ut accusantium maiores assumenda amet.","unit_price":10.61,"merchant_id":6}}]}'
+  recorded_at: Wed, 14 Dec 2022 20:55:41 GMT
+recorded_with: VCR 6.1.0
