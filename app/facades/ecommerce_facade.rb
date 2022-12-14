@@ -31,6 +31,10 @@ class EcommerceFacade
     EcommerceService.search(keyword)[:data].map do|item|
       Item.new(item)
     end
-    
+  end
+
+  def self.merchant_search(name)
+    merchant = EcommerceService.find_merchant(name)[:data]
+    Merchant.new(merchant)
   end
 end

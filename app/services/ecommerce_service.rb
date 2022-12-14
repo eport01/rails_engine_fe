@@ -31,4 +31,8 @@ class EcommerceService
   def self.search(keyword)
     get_url("/api/v1/items/find_all?name=#{keyword}")
   end
+
+  def self.find_merchant(name)
+    get_url("/api/v1/merchants/find?name=#{name}")
+  end
 end

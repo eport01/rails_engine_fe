@@ -1,4 +1,6 @@
 <center><h1><%=@merchant.name%></h1></center>
+<br><br><hr><br>
+<h2>Item List</h2>
 <%@merchant_items.each do |item|%>
   <p><%=link_to item.name, item_path(item.id)%></p>
 <%end%>
