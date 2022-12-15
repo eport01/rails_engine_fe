@@ -35,7 +35,17 @@ class EcommerceFacade
 
   def self.merchant_search(name)
     merchant = EcommerceService.find_merchant(name)[:data]
-    Merchant.new(merchant)
+    # require 'pry'; binding.pry
+    Merchant.new(merchant) unless merchant[:error]
+    # if merchant[:error] == nil 
+    #   nil 
+    # else
+    #   Merchant.new(merchant)
 
+    # end
+    #put this in backend, point to empty hash instead of error hash 
+    # if Merchant.nil? 
+    #   []
+    # end
   end
 end
