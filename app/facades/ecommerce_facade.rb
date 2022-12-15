@@ -35,6 +35,10 @@ class EcommerceFacade
 
   def self.merchant_search(name)
     merchant = EcommerceService.find_merchant(name)[:data]
-    Merchant.new(merchant)
+    if merchant[:error] != nil 
+      Merchant.new(merchant)
+    else
+      nil
+    end
   end
 end

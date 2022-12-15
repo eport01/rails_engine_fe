@@ -22,7 +22,7 @@
   <%@item_results.each do |item|%>
     <p><%=link_to item.name, item_path(item.id)%><p>
   <%end%>
-<%elsif params[:name]%>
+<%elsif params[:name] && @merchant_result != nil %>
   <h2>Merchant Search Results for "<%=params[:name]%>"</h2>
 
   <%=link_to @merchant_result.name, merchant_path(@merchant_result.id)%>  
