@@ -25,9 +25,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 647940bc-b058-4c28-b2e7-7e8d81762a47
+      - 361e540a-0841-4fe1-bede-c2968b6655d3
       X-Runtime:
-      - '0.209082'
+      - '0.109919'
       Transfer-Encoding:
       - chunked
     body:
@@ -35,5 +35,5 @@ http_interactions:
       string: '{"data":{"id":"4","type":"item","attributes":{"name":"Item Nemo Facere","description":"Sunt
         eum id eius magni consequuntur delectus veritatis. Quisquam laborum illo ut
         ab. Ducimus in est id voluptas autem.","unit_price":42.91,"merchant_id":1}}}'
-  recorded_at: Wed, 14 Dec 2022 23:19:54 GMT
+  recorded_at: Thu, 15 Dec 2022 03:24:43 GMT
 recorded_with: VCR 6.1.0

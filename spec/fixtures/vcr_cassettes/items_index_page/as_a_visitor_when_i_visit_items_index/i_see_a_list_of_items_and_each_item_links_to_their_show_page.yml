@@ -25,9 +25,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 32df1c3e-5c7e-4138-8cb9-e78469aeea47
+      - 8dda8efa-281a-42f5-b2ca-277ce76bac92
       X-Runtime:
-      - '1.030409'
+      - '0.977939'
       Transfer-Encoding:
       - chunked
     body:
@@ -6992,7 +6992,7 @@ http_interactions:
         Qui Veritatis","description":"Totam labore quia harum dicta eum consequatur
         qui. Corporis inventore consequatur. Illum facilis tempora nihil placeat rerum
         sint est. Placeat ut aut. Eligendi perspiciatis unde eum sapiente velit.","unit_price":906.17,"merchant_id":9}}]}'
-  recorded_at: Wed, 14 Dec 2022 23:18:42 GMT
+  recorded_at: Thu, 15 Dec 2022 03:24:41 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/items/4
@@ -7018,9 +7018,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 675e7303-1894-4f96-b426-55473537527a
+      - 48939bd5-5da5-4364-850e-6624321b35cc
       X-Runtime:
-      - '0.077639'
+      - '0.079700'
       Transfer-Encoding:
       - chunked
     body:
@@ -7028,5 +7028,5 @@ http_interactions:
       string: '{"data":{"id":"4","type":"item","attributes":{"name":"Item Nemo Facere","description":"Sunt
         eum id eius magni consequuntur delectus veritatis. Quisquam laborum illo ut
         ab. Ducimus in est id voluptas autem.","unit_price":42.91,"merchant_id":1}}}'
-  recorded_at: Wed, 14 Dec 2022 23:18:43 GMT
+  recorded_at: Thu, 15 Dec 2022 03:24:43 GMT
 recorded_with: VCR 6.1.0

@@ -1,0 +1,456 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/merchants
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"4276f772a17e5bfce5308df607a044aa"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - d3654752-c66a-4c54-8087-e87ecf144a2f
+      X-Runtime:
+      - '0.005724'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"1","type":"merchant","attributes":{"name":"Schroeder-Jerde"}},{"id":"2","type":"merchant","attributes":{"name":"Klein,
+        Rempel and Jones"}},{"id":"3","type":"merchant","attributes":{"name":"Willms
+        and Sons"}},{"id":"4","type":"merchant","attributes":{"name":"Cummings-Thiel"}},{"id":"5","type":"merchant","attributes":{"name":"Williamson
+        Group"}},{"id":"6","type":"merchant","attributes":{"name":"Williamson Group"}},{"id":"7","type":"merchant","attributes":{"name":"Bernhard-Johns"}},{"id":"8","type":"merchant","attributes":{"name":"Osinski,
+        Pollich and Koelpin"}},{"id":"9","type":"merchant","attributes":{"name":"Hand-Spencer"}},{"id":"10","type":"merchant","attributes":{"name":"Bechtelar,
+        Jones and Stokes"}},{"id":"11","type":"merchant","attributes":{"name":"Pollich
+        and Sons"}},{"id":"12","type":"merchant","attributes":{"name":"Kozey Group"}},{"id":"13","type":"merchant","attributes":{"name":"Tillman
+        Group"}},{"id":"14","type":"merchant","attributes":{"name":"Dicki-Bednar"}},{"id":"15","type":"merchant","attributes":{"name":"Adams-Kovacek"}},{"id":"16","type":"merchant","attributes":{"name":"Bosco,
+        Howe and Davis"}},{"id":"17","type":"merchant","attributes":{"name":"Ullrich-Moen"}},{"id":"18","type":"merchant","attributes":{"name":"Koepp
+        LLC"}},{"id":"19","type":"merchant","attributes":{"name":"Brown Inc"}},{"id":"20","type":"merchant","attributes":{"name":"Schulist,
+        Wilkinson and Leannon"}},{"id":"21","type":"merchant","attributes":{"name":"Leffler,
+        Rice and Leuschke"}},{"id":"22","type":"merchant","attributes":{"name":"Thiel
+        Inc"}},{"id":"23","type":"merchant","attributes":{"name":"Kilback Inc"}},{"id":"24","type":"merchant","attributes":{"name":"Ferry
+        and Sons"}},{"id":"25","type":"merchant","attributes":{"name":"Hickle-Hessel"}},{"id":"26","type":"merchant","attributes":{"name":"Balistreri,
+        Schaefer and Kshlerin"}},{"id":"27","type":"merchant","attributes":{"name":"Shields,
+        Hirthe and Smith"}},{"id":"28","type":"merchant","attributes":{"name":"Schiller,
+        Barrows and Parker"}},{"id":"29","type":"merchant","attributes":{"name":"Tromp
+        Inc"}},{"id":"30","type":"merchant","attributes":{"name":"Ernser, Borer and
+        Marks"}},{"id":"31","type":"merchant","attributes":{"name":"Maggio LLC"}},{"id":"32","type":"merchant","attributes":{"name":"Rowe
+        and Sons"}},{"id":"33","type":"merchant","attributes":{"name":"Quitzon and
+        Sons"}},{"id":"34","type":"merchant","attributes":{"name":"Rutherford, Bogan
+        and Leannon"}},{"id":"35","type":"merchant","attributes":{"name":"Schuster
+        Group"}},{"id":"36","type":"merchant","attributes":{"name":"Bernhard, Stanton
+        and Funk"}},{"id":"37","type":"merchant","attributes":{"name":"Dibbert Group"}},{"id":"38","type":"merchant","attributes":{"name":"Johnston,
+        Gleason and O''Keefe"}},{"id":"39","type":"merchant","attributes":{"name":"Schuppe,
+        Friesen and Schmeler"}},{"id":"40","type":"merchant","attributes":{"name":"Wilderman
+        Group"}},{"id":"41","type":"merchant","attributes":{"name":"Crona LLC"}},{"id":"43","type":"merchant","attributes":{"name":"Marks,
+        Shanahan and Bauch"}},{"id":"44","type":"merchant","attributes":{"name":"Gibson
+        Group"}},{"id":"45","type":"merchant","attributes":{"name":"Dickinson-Klein"}},{"id":"46","type":"merchant","attributes":{"name":"Huels,
+        Homenick and Smith"}},{"id":"47","type":"merchant","attributes":{"name":"Franecki-Ullrich"}},{"id":"48","type":"merchant","attributes":{"name":"Hand,
+        Boyer and Mitchell"}},{"id":"49","type":"merchant","attributes":{"name":"Marvin,
+        Renner and Bauch"}},{"id":"50","type":"merchant","attributes":{"name":"Nader-Hyatt"}},{"id":"51","type":"merchant","attributes":{"name":"Paucek
+        Inc"}},{"id":"52","type":"merchant","attributes":{"name":"Reynolds Inc"}},{"id":"53","type":"merchant","attributes":{"name":"Rath,
+        Gleason and Spencer"}},{"id":"54","type":"merchant","attributes":{"name":"Zemlak-Collins"}},{"id":"55","type":"merchant","attributes":{"name":"Koch,
+        Wolf and Jerde"}},{"id":"56","type":"merchant","attributes":{"name":"Sporer,
+        Christiansen and Connelly"}},{"id":"57","type":"merchant","attributes":{"name":"Parisian
+        Group"}},{"id":"58","type":"merchant","attributes":{"name":"Rogahn LLC"}},{"id":"59","type":"merchant","attributes":{"name":"Pollich,
+        Romaguera and Bayer"}},{"id":"60","type":"merchant","attributes":{"name":"Smitham
+        LLC"}},{"id":"61","type":"merchant","attributes":{"name":"Auer, Crooks and
+        Shanahan"}},{"id":"62","type":"merchant","attributes":{"name":"Kunze, Kautzer
+        and Little"}},{"id":"63","type":"merchant","attributes":{"name":"Lehner, Padberg
+        and O''Hara"}},{"id":"64","type":"merchant","attributes":{"name":"Koepp, Waelchi
+        and Donnelly"}},{"id":"65","type":"merchant","attributes":{"name":"Hermann,
+        Weimann and Botsford"}},{"id":"66","type":"merchant","attributes":{"name":"Bechtelar
+        LLC"}},{"id":"67","type":"merchant","attributes":{"name":"Torp and Sons"}},{"id":"68","type":"merchant","attributes":{"name":"Heaney
+        Group"}},{"id":"69","type":"merchant","attributes":{"name":"Watsica-Parisian"}},{"id":"70","type":"merchant","attributes":{"name":"Weimann-Schimmel"}},{"id":"71","type":"merchant","attributes":{"name":"Schulist
+        Group"}},{"id":"72","type":"merchant","attributes":{"name":"Greenfelder-Keebler"}},{"id":"73","type":"merchant","attributes":{"name":"Sipes
+        LLC"}},{"id":"74","type":"merchant","attributes":{"name":"Daugherty Group"}},{"id":"75","type":"merchant","attributes":{"name":"Eichmann-Turcotte"}},{"id":"76","type":"merchant","attributes":{"name":"Kirlin,
+        Jakubowski and Smitham"}},{"id":"77","type":"merchant","attributes":{"name":"Kutch,
+        Blick and O''Keefe"}},{"id":"78","type":"merchant","attributes":{"name":"Heathcote-Hettinger"}},{"id":"79","type":"merchant","attributes":{"name":"Pacocha-Mayer"}},{"id":"80","type":"merchant","attributes":{"name":"Jakubowski,
+        Predovic and Hudson"}},{"id":"81","type":"merchant","attributes":{"name":"Jewess
+        Group"}},{"id":"82","type":"merchant","attributes":{"name":"Kulas LLC"}},{"id":"83","type":"merchant","attributes":{"name":"Gulgowski,
+        Torphy and Lynch"}},{"id":"84","type":"merchant","attributes":{"name":"Terry-Moore"}},{"id":"85","type":"merchant","attributes":{"name":"Sauer
+        and Sons"}},{"id":"86","type":"merchant","attributes":{"name":"Marvin Group"}},{"id":"87","type":"merchant","attributes":{"name":"Johnson-Wiza"}},{"id":"88","type":"merchant","attributes":{"name":"Kiehn
+        Group"}},{"id":"89","type":"merchant","attributes":{"name":"Kassulke, O''Hara
+        and Quitzon"}},{"id":"90","type":"merchant","attributes":{"name":"Friesen,
+        Hackett and Runte"}},{"id":"91","type":"merchant","attributes":{"name":"Weissnat,
+        Hermiston and Beer"}},{"id":"92","type":"merchant","attributes":{"name":"Zemlak,
+        Volkman and Haley"}},{"id":"93","type":"merchant","attributes":{"name":"Walter-Schowalter"}},{"id":"94","type":"merchant","attributes":{"name":"Boehm
+        LLC"}},{"id":"95","type":"merchant","attributes":{"name":"Johnson-Dickinson"}},{"id":"96","type":"merchant","attributes":{"name":"Swaniawski-Cremin"}},{"id":"97","type":"merchant","attributes":{"name":"Rice,
+        Jerde and White"}},{"id":"98","type":"merchant","attributes":{"name":"Okuneva,
+        Prohaska and Rolfson"}},{"id":"100","type":"merchant","attributes":{"name":"Wisozk,
+        Hoeger and Bosco"}},{"id":"99","type":"merchant","attributes":{"name":"Fahey-Stiedemann"}},{"id":"42","type":"merchant","attributes":{"name":"Glover
+        Inc"}}]}'
+  recorded_at: Thu, 15 Dec 2022 03:24:43 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/merchants
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"4276f772a17e5bfce5308df607a044aa"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - a1bbe070-1beb-4b94-84da-4c47494d07a7
+      X-Runtime:
+      - '0.007914'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"1","type":"merchant","attributes":{"name":"Schroeder-Jerde"}},{"id":"2","type":"merchant","attributes":{"name":"Klein,
+        Rempel and Jones"}},{"id":"3","type":"merchant","attributes":{"name":"Willms
+        and Sons"}},{"id":"4","type":"merchant","attributes":{"name":"Cummings-Thiel"}},{"id":"5","type":"merchant","attributes":{"name":"Williamson
+        Group"}},{"id":"6","type":"merchant","attributes":{"name":"Williamson Group"}},{"id":"7","type":"merchant","attributes":{"name":"Bernhard-Johns"}},{"id":"8","type":"merchant","attributes":{"name":"Osinski,
+        Pollich and Koelpin"}},{"id":"9","type":"merchant","attributes":{"name":"Hand-Spencer"}},{"id":"10","type":"merchant","attributes":{"name":"Bechtelar,
+        Jones and Stokes"}},{"id":"11","type":"merchant","attributes":{"name":"Pollich
+        and Sons"}},{"id":"12","type":"merchant","attributes":{"name":"Kozey Group"}},{"id":"13","type":"merchant","attributes":{"name":"Tillman
+        Group"}},{"id":"14","type":"merchant","attributes":{"name":"Dicki-Bednar"}},{"id":"15","type":"merchant","attributes":{"name":"Adams-Kovacek"}},{"id":"16","type":"merchant","attributes":{"name":"Bosco,
+        Howe and Davis"}},{"id":"17","type":"merchant","attributes":{"name":"Ullrich-Moen"}},{"id":"18","type":"merchant","attributes":{"name":"Koepp
+        LLC"}},{"id":"19","type":"merchant","attributes":{"name":"Brown Inc"}},{"id":"20","type":"merchant","attributes":{"name":"Schulist,
+        Wilkinson and Leannon"}},{"id":"21","type":"merchant","attributes":{"name":"Leffler,
+        Rice and Leuschke"}},{"id":"22","type":"merchant","attributes":{"name":"Thiel
+        Inc"}},{"id":"23","type":"merchant","attributes":{"name":"Kilback Inc"}},{"id":"24","type":"merchant","attributes":{"name":"Ferry
+        and Sons"}},{"id":"25","type":"merchant","attributes":{"name":"Hickle-Hessel"}},{"id":"26","type":"merchant","attributes":{"name":"Balistreri,
+        Schaefer and Kshlerin"}},{"id":"27","type":"merchant","attributes":{"name":"Shields,
+        Hirthe and Smith"}},{"id":"28","type":"merchant","attributes":{"name":"Schiller,
+        Barrows and Parker"}},{"id":"29","type":"merchant","attributes":{"name":"Tromp
+        Inc"}},{"id":"30","type":"merchant","attributes":{"name":"Ernser, Borer and
+        Marks"}},{"id":"31","type":"merchant","attributes":{"name":"Maggio LLC"}},{"id":"32","type":"merchant","attributes":{"name":"Rowe
+        and Sons"}},{"id":"33","type":"merchant","attributes":{"name":"Quitzon and
+        Sons"}},{"id":"34","type":"merchant","attributes":{"name":"Rutherford, Bogan
+        and Leannon"}},{"id":"35","type":"merchant","attributes":{"name":"Schuster
+        Group"}},{"id":"36","type":"merchant","attributes":{"name":"Bernhard, Stanton
+        and Funk"}},{"id":"37","type":"merchant","attributes":{"name":"Dibbert Group"}},{"id":"38","type":"merchant","attributes":{"name":"Johnston,
+        Gleason and O''Keefe"}},{"id":"39","type":"merchant","attributes":{"name":"Schuppe,
+        Friesen and Schmeler"}},{"id":"40","type":"merchant","attributes":{"name":"Wilderman
+        Group"}},{"id":"41","type":"merchant","attributes":{"name":"Crona LLC"}},{"id":"43","type":"merchant","attributes":{"name":"Marks,
+        Shanahan and Bauch"}},{"id":"44","type":"merchant","attributes":{"name":"Gibson
+        Group"}},{"id":"45","type":"merchant","attributes":{"name":"Dickinson-Klein"}},{"id":"46","type":"merchant","attributes":{"name":"Huels,
+        Homenick and Smith"}},{"id":"47","type":"merchant","attributes":{"name":"Franecki-Ullrich"}},{"id":"48","type":"merchant","attributes":{"name":"Hand,
+        Boyer and Mitchell"}},{"id":"49","type":"merchant","attributes":{"name":"Marvin,
+        Renner and Bauch"}},{"id":"50","type":"merchant","attributes":{"name":"Nader-Hyatt"}},{"id":"51","type":"merchant","attributes":{"name":"Paucek
+        Inc"}},{"id":"52","type":"merchant","attributes":{"name":"Reynolds Inc"}},{"id":"53","type":"merchant","attributes":{"name":"Rath,
+        Gleason and Spencer"}},{"id":"54","type":"merchant","attributes":{"name":"Zemlak-Collins"}},{"id":"55","type":"merchant","attributes":{"name":"Koch,
+        Wolf and Jerde"}},{"id":"56","type":"merchant","attributes":{"name":"Sporer,
+        Christiansen and Connelly"}},{"id":"57","type":"merchant","attributes":{"name":"Parisian
+        Group"}},{"id":"58","type":"merchant","attributes":{"name":"Rogahn LLC"}},{"id":"59","type":"merchant","attributes":{"name":"Pollich,
+        Romaguera and Bayer"}},{"id":"60","type":"merchant","attributes":{"name":"Smitham
+        LLC"}},{"id":"61","type":"merchant","attributes":{"name":"Auer, Crooks and
+        Shanahan"}},{"id":"62","type":"merchant","attributes":{"name":"Kunze, Kautzer
+        and Little"}},{"id":"63","type":"merchant","attributes":{"name":"Lehner, Padberg
+        and O''Hara"}},{"id":"64","type":"merchant","attributes":{"name":"Koepp, Waelchi
+        and Donnelly"}},{"id":"65","type":"merchant","attributes":{"name":"Hermann,
+        Weimann and Botsford"}},{"id":"66","type":"merchant","attributes":{"name":"Bechtelar
+        LLC"}},{"id":"67","type":"merchant","attributes":{"name":"Torp and Sons"}},{"id":"68","type":"merchant","attributes":{"name":"Heaney
+        Group"}},{"id":"69","type":"merchant","attributes":{"name":"Watsica-Parisian"}},{"id":"70","type":"merchant","attributes":{"name":"Weimann-Schimmel"}},{"id":"71","type":"merchant","attributes":{"name":"Schulist
+        Group"}},{"id":"72","type":"merchant","attributes":{"name":"Greenfelder-Keebler"}},{"id":"73","type":"merchant","attributes":{"name":"Sipes
+        LLC"}},{"id":"74","type":"merchant","attributes":{"name":"Daugherty Group"}},{"id":"75","type":"merchant","attributes":{"name":"Eichmann-Turcotte"}},{"id":"76","type":"merchant","attributes":{"name":"Kirlin,
+        Jakubowski and Smitham"}},{"id":"77","type":"merchant","attributes":{"name":"Kutch,
+        Blick and O''Keefe"}},{"id":"78","type":"merchant","attributes":{"name":"Heathcote-Hettinger"}},{"id":"79","type":"merchant","attributes":{"name":"Pacocha-Mayer"}},{"id":"80","type":"merchant","attributes":{"name":"Jakubowski,
+        Predovic and Hudson"}},{"id":"81","type":"merchant","attributes":{"name":"Jewess
+        Group"}},{"id":"82","type":"merchant","attributes":{"name":"Kulas LLC"}},{"id":"83","type":"merchant","attributes":{"name":"Gulgowski,
+        Torphy and Lynch"}},{"id":"84","type":"merchant","attributes":{"name":"Terry-Moore"}},{"id":"85","type":"merchant","attributes":{"name":"Sauer
+        and Sons"}},{"id":"86","type":"merchant","attributes":{"name":"Marvin Group"}},{"id":"87","type":"merchant","attributes":{"name":"Johnson-Wiza"}},{"id":"88","type":"merchant","attributes":{"name":"Kiehn
+        Group"}},{"id":"89","type":"merchant","attributes":{"name":"Kassulke, O''Hara
+        and Quitzon"}},{"id":"90","type":"merchant","attributes":{"name":"Friesen,
+        Hackett and Runte"}},{"id":"91","type":"merchant","attributes":{"name":"Weissnat,
+        Hermiston and Beer"}},{"id":"92","type":"merchant","attributes":{"name":"Zemlak,
+        Volkman and Haley"}},{"id":"93","type":"merchant","attributes":{"name":"Walter-Schowalter"}},{"id":"94","type":"merchant","attributes":{"name":"Boehm
+        LLC"}},{"id":"95","type":"merchant","attributes":{"name":"Johnson-Dickinson"}},{"id":"96","type":"merchant","attributes":{"name":"Swaniawski-Cremin"}},{"id":"97","type":"merchant","attributes":{"name":"Rice,
+        Jerde and White"}},{"id":"98","type":"merchant","attributes":{"name":"Okuneva,
+        Prohaska and Rolfson"}},{"id":"100","type":"merchant","attributes":{"name":"Wisozk,
+        Hoeger and Bosco"}},{"id":"99","type":"merchant","attributes":{"name":"Fahey-Stiedemann"}},{"id":"42","type":"merchant","attributes":{"name":"Glover
+        Inc"}}]}'
+  recorded_at: Thu, 15 Dec 2022 03:24:43 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/merchants
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"4276f772a17e5bfce5308df607a044aa"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - e094a78e-94ac-4036-90b3-b07b6ebba94e
+      X-Runtime:
+      - '0.006333'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"1","type":"merchant","attributes":{"name":"Schroeder-Jerde"}},{"id":"2","type":"merchant","attributes":{"name":"Klein,
+        Rempel and Jones"}},{"id":"3","type":"merchant","attributes":{"name":"Willms
+        and Sons"}},{"id":"4","type":"merchant","attributes":{"name":"Cummings-Thiel"}},{"id":"5","type":"merchant","attributes":{"name":"Williamson
+        Group"}},{"id":"6","type":"merchant","attributes":{"name":"Williamson Group"}},{"id":"7","type":"merchant","attributes":{"name":"Bernhard-Johns"}},{"id":"8","type":"merchant","attributes":{"name":"Osinski,
+        Pollich and Koelpin"}},{"id":"9","type":"merchant","attributes":{"name":"Hand-Spencer"}},{"id":"10","type":"merchant","attributes":{"name":"Bechtelar,
+        Jones and Stokes"}},{"id":"11","type":"merchant","attributes":{"name":"Pollich
+        and Sons"}},{"id":"12","type":"merchant","attributes":{"name":"Kozey Group"}},{"id":"13","type":"merchant","attributes":{"name":"Tillman
+        Group"}},{"id":"14","type":"merchant","attributes":{"name":"Dicki-Bednar"}},{"id":"15","type":"merchant","attributes":{"name":"Adams-Kovacek"}},{"id":"16","type":"merchant","attributes":{"name":"Bosco,
+        Howe and Davis"}},{"id":"17","type":"merchant","attributes":{"name":"Ullrich-Moen"}},{"id":"18","type":"merchant","attributes":{"name":"Koepp
+        LLC"}},{"id":"19","type":"merchant","attributes":{"name":"Brown Inc"}},{"id":"20","type":"merchant","attributes":{"name":"Schulist,
+        Wilkinson and Leannon"}},{"id":"21","type":"merchant","attributes":{"name":"Leffler,
+        Rice and Leuschke"}},{"id":"22","type":"merchant","attributes":{"name":"Thiel
+        Inc"}},{"id":"23","type":"merchant","attributes":{"name":"Kilback Inc"}},{"id":"24","type":"merchant","attributes":{"name":"Ferry
+        and Sons"}},{"id":"25","type":"merchant","attributes":{"name":"Hickle-Hessel"}},{"id":"26","type":"merchant","attributes":{"name":"Balistreri,
+        Schaefer and Kshlerin"}},{"id":"27","type":"merchant","attributes":{"name":"Shields,
+        Hirthe and Smith"}},{"id":"28","type":"merchant","attributes":{"name":"Schiller,
+        Barrows and Parker"}},{"id":"29","type":"merchant","attributes":{"name":"Tromp
+        Inc"}},{"id":"30","type":"merchant","attributes":{"name":"Ernser, Borer and
+        Marks"}},{"id":"31","type":"merchant","attributes":{"name":"Maggio LLC"}},{"id":"32","type":"merchant","attributes":{"name":"Rowe
+        and Sons"}},{"id":"33","type":"merchant","attributes":{"name":"Quitzon and
+        Sons"}},{"id":"34","type":"merchant","attributes":{"name":"Rutherford, Bogan
+        and Leannon"}},{"id":"35","type":"merchant","attributes":{"name":"Schuster
+        Group"}},{"id":"36","type":"merchant","attributes":{"name":"Bernhard, Stanton
+        and Funk"}},{"id":"37","type":"merchant","attributes":{"name":"Dibbert Group"}},{"id":"38","type":"merchant","attributes":{"name":"Johnston,
+        Gleason and O''Keefe"}},{"id":"39","type":"merchant","attributes":{"name":"Schuppe,
+        Friesen and Schmeler"}},{"id":"40","type":"merchant","attributes":{"name":"Wilderman
+        Group"}},{"id":"41","type":"merchant","attributes":{"name":"Crona LLC"}},{"id":"43","type":"merchant","attributes":{"name":"Marks,
+        Shanahan and Bauch"}},{"id":"44","type":"merchant","attributes":{"name":"Gibson
+        Group"}},{"id":"45","type":"merchant","attributes":{"name":"Dickinson-Klein"}},{"id":"46","type":"merchant","attributes":{"name":"Huels,
+        Homenick and Smith"}},{"id":"47","type":"merchant","attributes":{"name":"Franecki-Ullrich"}},{"id":"48","type":"merchant","attributes":{"name":"Hand,
+        Boyer and Mitchell"}},{"id":"49","type":"merchant","attributes":{"name":"Marvin,
+        Renner and Bauch"}},{"id":"50","type":"merchant","attributes":{"name":"Nader-Hyatt"}},{"id":"51","type":"merchant","attributes":{"name":"Paucek
+        Inc"}},{"id":"52","type":"merchant","attributes":{"name":"Reynolds Inc"}},{"id":"53","type":"merchant","attributes":{"name":"Rath,
+        Gleason and Spencer"}},{"id":"54","type":"merchant","attributes":{"name":"Zemlak-Collins"}},{"id":"55","type":"merchant","attributes":{"name":"Koch,
+        Wolf and Jerde"}},{"id":"56","type":"merchant","attributes":{"name":"Sporer,
+        Christiansen and Connelly"}},{"id":"57","type":"merchant","attributes":{"name":"Parisian
+        Group"}},{"id":"58","type":"merchant","attributes":{"name":"Rogahn LLC"}},{"id":"59","type":"merchant","attributes":{"name":"Pollich,
+        Romaguera and Bayer"}},{"id":"60","type":"merchant","attributes":{"name":"Smitham
+        LLC"}},{"id":"61","type":"merchant","attributes":{"name":"Auer, Crooks and
+        Shanahan"}},{"id":"62","type":"merchant","attributes":{"name":"Kunze, Kautzer
+        and Little"}},{"id":"63","type":"merchant","attributes":{"name":"Lehner, Padberg
+        and O''Hara"}},{"id":"64","type":"merchant","attributes":{"name":"Koepp, Waelchi
+        and Donnelly"}},{"id":"65","type":"merchant","attributes":{"name":"Hermann,
+        Weimann and Botsford"}},{"id":"66","type":"merchant","attributes":{"name":"Bechtelar
+        LLC"}},{"id":"67","type":"merchant","attributes":{"name":"Torp and Sons"}},{"id":"68","type":"merchant","attributes":{"name":"Heaney
+        Group"}},{"id":"69","type":"merchant","attributes":{"name":"Watsica-Parisian"}},{"id":"70","type":"merchant","attributes":{"name":"Weimann-Schimmel"}},{"id":"71","type":"merchant","attributes":{"name":"Schulist
+        Group"}},{"id":"72","type":"merchant","attributes":{"name":"Greenfelder-Keebler"}},{"id":"73","type":"merchant","attributes":{"name":"Sipes
+        LLC"}},{"id":"74","type":"merchant","attributes":{"name":"Daugherty Group"}},{"id":"75","type":"merchant","attributes":{"name":"Eichmann-Turcotte"}},{"id":"76","type":"merchant","attributes":{"name":"Kirlin,
+        Jakubowski and Smitham"}},{"id":"77","type":"merchant","attributes":{"name":"Kutch,
+        Blick and O''Keefe"}},{"id":"78","type":"merchant","attributes":{"name":"Heathcote-Hettinger"}},{"id":"79","type":"merchant","attributes":{"name":"Pacocha-Mayer"}},{"id":"80","type":"merchant","attributes":{"name":"Jakubowski,
+        Predovic and Hudson"}},{"id":"81","type":"merchant","attributes":{"name":"Jewess
+        Group"}},{"id":"82","type":"merchant","attributes":{"name":"Kulas LLC"}},{"id":"83","type":"merchant","attributes":{"name":"Gulgowski,
+        Torphy and Lynch"}},{"id":"84","type":"merchant","attributes":{"name":"Terry-Moore"}},{"id":"85","type":"merchant","attributes":{"name":"Sauer
+        and Sons"}},{"id":"86","type":"merchant","attributes":{"name":"Marvin Group"}},{"id":"87","type":"merchant","attributes":{"name":"Johnson-Wiza"}},{"id":"88","type":"merchant","attributes":{"name":"Kiehn
+        Group"}},{"id":"89","type":"merchant","attributes":{"name":"Kassulke, O''Hara
+        and Quitzon"}},{"id":"90","type":"merchant","attributes":{"name":"Friesen,
+        Hackett and Runte"}},{"id":"91","type":"merchant","attributes":{"name":"Weissnat,
+        Hermiston and Beer"}},{"id":"92","type":"merchant","attributes":{"name":"Zemlak,
+        Volkman and Haley"}},{"id":"93","type":"merchant","attributes":{"name":"Walter-Schowalter"}},{"id":"94","type":"merchant","attributes":{"name":"Boehm
+        LLC"}},{"id":"95","type":"merchant","attributes":{"name":"Johnson-Dickinson"}},{"id":"96","type":"merchant","attributes":{"name":"Swaniawski-Cremin"}},{"id":"97","type":"merchant","attributes":{"name":"Rice,
+        Jerde and White"}},{"id":"98","type":"merchant","attributes":{"name":"Okuneva,
+        Prohaska and Rolfson"}},{"id":"100","type":"merchant","attributes":{"name":"Wisozk,
+        Hoeger and Bosco"}},{"id":"99","type":"merchant","attributes":{"name":"Fahey-Stiedemann"}},{"id":"42","type":"merchant","attributes":{"name":"Glover
+        Inc"}}]}'
+  recorded_at: Thu, 15 Dec 2022 03:24:43 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/merchants/find?name=li
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"bdfca6fea3e7302f51c5b86ad6f8701c"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - '073768f8-5158-4b28-8254-e3b209a18855'
+      X-Runtime:
+      - '0.003247'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"26","type":"merchant","attributes":{"name":"Balistreri,
+        Schaefer and Kshlerin"}}}'
+  recorded_at: Thu, 15 Dec 2022 03:24:43 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/merchants/26
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"bdfca6fea3e7302f51c5b86ad6f8701c"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 88a6f593-6116-4759-894c-70049609749c
+      X-Runtime:
+      - '0.004675'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"26","type":"merchant","attributes":{"name":"Balistreri,
+        Schaefer and Kshlerin"}}}'
+  recorded_at: Thu, 15 Dec 2022 03:24:43 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/merchants/26/items
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"d6b345d8f8e04bc09faea117da81668c"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 9cfd7408-d537-479a-a5d5-70a36f5de28f
+      X-Runtime:
+      - '0.007455'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"519","type":"item","attributes":{"name":"Item Qui Molestiae","description":"Quod
+        molestiae officia non ad dolor. Quos non occaecati non voluptatibus et fugiat
+        consequatur. Perferendis quo enim voluptates quod velit doloribus.","unit_price":2.97,"merchant_id":26}},{"id":"520","type":"item","attributes":{"name":"Item
+        Animi Nisi","description":"Minus cumque eligendi id at libero aperiam architecto.
+        Cumque nemo quaerat eveniet. Eligendi sit aut placeat animi.","unit_price":171.49,"merchant_id":26}},{"id":"521","type":"item","attributes":{"name":"Item
+        Voluptatem Fuga","description":"Dolore qui laudantium earum qui pariatur ipsam.
+        Est animi tempora. Laudantium ad rerum vitae. Corrupti earum sit unde ad.
+        Minus architecto ea.","unit_price":741.22,"merchant_id":26}},{"id":"522","type":"item","attributes":{"name":"Item
+        Magni Impedit","description":"Earum laborum consequatur perferendis numquam
+        quod soluta. Sunt eos et. Qui sed dolorem quia voluptas facilis alias. Eum
+        est dolorem.","unit_price":357.42,"merchant_id":26}},{"id":"523","type":"item","attributes":{"name":"Item
+        Pariatur Quia","description":"Ipsa ea libero magni iure dolores nihil illo.
+        Aut magni molestias repellendus dolores molestiae repudiandae eius. Beatae
+        doloribus occaecati sed accusantium autem. Labore quod et omnis non quae.","unit_price":348.73,"merchant_id":26}},{"id":"524","type":"item","attributes":{"name":"Item
+        Nisi Unde","description":"Iste porro hic. Perferendis iste odit excepturi
+        quidem ratione voluptatum autem. Itaque voluptatem expedita debitis.","unit_price":897.74,"merchant_id":26}},{"id":"525","type":"item","attributes":{"name":"Item
+        Aut Necessitatibus","description":"Et veniam illo. Dignissimos ut nihil cupiditate.
+        Ut voluptatem consequatur minima. Similique recusandae nemo accusantium aut
+        temporibus. Nisi non explicabo.","unit_price":995.66,"merchant_id":26}},{"id":"526","type":"item","attributes":{"name":"Item
+        Reprehenderit Voluptas","description":"Velit autem placeat perspiciatis. Dolore
+        iusto sunt. Dolores dolor ut assumenda aut libero id. Et rerum voluptatem
+        ab voluptatem praesentium et quibusdam.","unit_price":996.71,"merchant_id":26}},{"id":"527","type":"item","attributes":{"name":"Item
+        Aspernatur Dolorum","description":"Explicabo saepe veritatis aut velit. Dolores
+        earum tempora ex quos. Sapiente nihil et at beatae.","unit_price":799.77,"merchant_id":26}},{"id":"528","type":"item","attributes":{"name":"Item
+        Quae Dolore","description":"Voluptatum sint aliquam sint voluptas illum ut.
+        Et suscipit necessitatibus earum assumenda praesentium laudantium labore.
+        Dolore vitae modi.","unit_price":233.24,"merchant_id":26}},{"id":"529","type":"item","attributes":{"name":"Item
+        Eius Et","description":"Minus molestiae quia id. Voluptates laboriosam illo
+        ipsa id ut magnam ratione. Quia iusto quod eum quam. Ipsum eaque ab nisi atque.","unit_price":79.14,"merchant_id":26}},{"id":"530","type":"item","attributes":{"name":"Item
+        Sit Incidunt","description":"Rem dolor eos dolorem. Nobis doloribus at libero
+        voluptas qui et sunt. Rerum optio aut et dolorem nam.","unit_price":667.47,"merchant_id":26}},{"id":"531","type":"item","attributes":{"name":"Item
+        Soluta Architecto","description":"Ipsa perspiciatis tempore non a molestias
+        dignissimos at. Pariatur aperiam modi ea dolores ut exercitationem consequatur.
+        Voluptatem voluptates est.","unit_price":335.49,"merchant_id":26}},{"id":"532","type":"item","attributes":{"name":"Item
+        Magni Rerum","description":"Odit quia impedit non molestias quas quibusdam
+        et. Consectetur officia et est. Vero delectus non officiis optio ut tempora.","unit_price":670.75,"merchant_id":26}},{"id":"533","type":"item","attributes":{"name":"Item
+        Sit Et","description":"Omnis fugiat iure maxime corporis libero debitis id.
+        Sed corrupti cum quia non maiores exercitationem. Nam officia sint debitis
+        qui. Nisi dolorem vel laudantium at. Ea ut voluptas sed ad.","unit_price":284.29,"merchant_id":26}},{"id":"534","type":"item","attributes":{"name":"Item
+        Nulla Aut","description":"Ut sapiente natus. Sit eos est beatae itaque voluptas
+        rerum et. Laboriosam aut est enim.","unit_price":769.41,"merchant_id":26}},{"id":"535","type":"item","attributes":{"name":"Item
+        Eum Aspernatur","description":"Neque voluptatem numquam voluptatem ullam maiores.
+        Distinctio aperiam magnam eaque accusamus neque. Modi quibusdam atque quia.
+        Sapiente suscipit quisquam optio et voluptate. Veritatis accusantium cum rerum
+        eaque aut.","unit_price":21.96,"merchant_id":26}},{"id":"536","type":"item","attributes":{"name":"Item
+        Voluptate At","description":"Et consequatur porro sed illum voluptatem aut.
+        Quo sequi aut accusamus. Praesentium dolor placeat accusamus aliquam consequuntur.","unit_price":763.13,"merchant_id":26}},{"id":"537","type":"item","attributes":{"name":"Item
+        Asperiores Possimus","description":"Nostrum dignissimos et est aut quod possimus.
+        Beatae iure praesentium nisi ducimus. Possimus tempore aut.","unit_price":615.99,"merchant_id":26}},{"id":"538","type":"item","attributes":{"name":"Item
+        Est Aliquam","description":"Molestias at alias vero. Laboriosam fuga praesentium
+        ipsam harum repudiandae quidem. Omnis minima odio.","unit_price":949.35,"merchant_id":26}},{"id":"539","type":"item","attributes":{"name":"Item
+        Sunt Saepe","description":"Quibusdam aut qui. Sint repudiandae et dolor quo.
+        Et nihil qui beatae est ipsam quo corrupti. Voluptatibus ut pariatur dolorem
+        nostrum temporibus magnam enim. Quia nisi voluptate aperiam vel et.","unit_price":136.35,"merchant_id":26}},{"id":"540","type":"item","attributes":{"name":"Item
+        Ut Voluptas","description":"Sequi quas a velit aut harum iure doloribus. Doloribus
+        accusantium sed. Qui quia quidem. A quisquam cumque.","unit_price":81.41,"merchant_id":26}},{"id":"541","type":"item","attributes":{"name":"Item
+        Aliquid Occaecati","description":"Autem sapiente consequatur et. Quo blanditiis
+        corporis dolorum iure deleniti sed veniam. Consequatur molestiae unde nobis
+        voluptatum. Cum aut id aliquam autem eum. Ut saepe distinctio id.","unit_price":5.21,"merchant_id":26}}]}'
+  recorded_at: Thu, 15 Dec 2022 03:24:43 GMT
+recorded_with: VCR 6.1.0
